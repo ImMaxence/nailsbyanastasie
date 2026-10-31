@@ -1,0 +1,6 @@
+services:
+  nailsbyanastasie:
+    build: .
+    restart: unless-stopped
+    expose:
+      - "80"
